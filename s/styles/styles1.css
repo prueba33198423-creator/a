@@ -1,0 +1,118 @@
+:root{
+    --colorENC:rgb(21, 21, 167);
+    --colorFON: rgb(236, 236, 253);
+}
+
+body{
+    font-family: Arial,  sans-serif;
+    background-color: rgb(236, 236, 253);
+    margin: 0;
+}
+
+header{
+    background-color: rgb(21, 21, 167);
+    color: white   ;
+    padding: 20px;
+    text-align: center;
+}
+
+#aside2{
+    flex: 1;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#aside3{
+    background-image: url(../img/imgAguilas.png.png); 
+    height: 312px;
+    width: 396px;
+    margin-left: 150px;
+}
+
+img{
+    height: 320px;
+    width: auto;
+    padding-top: 50px;
+    opacity:0.35;
+}
+
+#aside1{
+    background-color: var(--colorFON);
+    
+}
+
+#aside2:hover{
+    margin-top: none;
+    box-shadow:  4px 10px rgb(156, 156, 230);
+    transition: 0.3 ease-in-out;
+    
+}
+
+main{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom:90px ;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section article{
+    background-color: rgba(255, 166, 0, 0.928);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;  
+}
+
+section h3{
+    text-align: center;
+}
+
+article:hover{
+       margin-top: none;
+    box-shadow:  4px 10px rgb(156, 156, 230);
+    transition: 0.3 ease-in-out;
+}
+
+label{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+form section{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 600px;
+}
+
+#sec2{
+    text-align: right;
+}
+
+#secM{
+   display:grid ;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+}
+
+#secM p{
+    margin: 0;
+    padding-left: 120px;
+}
+
+footer{
+    background-color:var(--colorENC);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media(min-width: 320px)and(max-width: 480px){
+    body{ font-size: 13px;}
+}
+
+

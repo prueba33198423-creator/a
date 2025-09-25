@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:rgb(236, 236, 253); 
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(21, 21, 167);
+    color: white;
+    padding: 20px;
+}
+
+h2{
+padding-top: 10px;
+padding-bottom: 30px; 
+}
+
+nav{
+    background-color: rgba(255, 166, 0, 0.928);
+    padding: 3px;
+    text-align: center;
+    color: white;
+}
+
+main{
+    margin-right: 20px;
+    margin-left: 20px;
+    
+  
+}
+
+article{
+    margin-left: 20px;
+    margin-right: 20px  ;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.928);
+    padding: 10px;
+}
+
+div{
+    padding-left: 20px;
+    display: flex;
+    
+}
+
+h2:hover{
+    text-shadow: 2px 3px antiquewhite;
+    transition: 0.3 ease-in-out;
+    font-size: 25px;
+}
+
+section{
+    display: flex;
+}
+
+
+footer{
+    background-color: rgb(21, 21, 167);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+article:hover{
+    margin-top: none;
+    box-shadow:  4px 10px rgb(156, 156, 230);
+    transition: 0.3 ease-in-out;
+}
+
+section img{
+    height: 247px;
+    width: auto;
+    border-radius: 10px;    
+}
+
+#s2{
+display: flex;
+padding-right: 100px;
+}
+
+#s2 article{
+    background-color:rgba(255, 166, 0, 0.928);
+    margin-bottom: 40px;
+    
+}
+
+#s2, #s3 h3{
+text-align: center;
+color: rgb(21, 21, 167) ;
+
+}
+
+section a{
+text-decoration: none;
+
+}
+
+@media(min-width: 320px) and (max-width: 480px){
+    body{ 
+        font-size: 13px;
+        
+    
+}
+
+article{
+    padding-bottom: 90%;
+  }
+
+ main{
+    display: 0;
+ }
+
+
+}
+
